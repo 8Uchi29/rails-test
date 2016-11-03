@@ -18,3 +18,11 @@
 最初に動作するのはルーティングの部分
 
 USER-no-MacBook-Pro:rails_test_heroku ryo$ rails generate controller StaticPages home help
+
+
+
+Rails Tutorialでは、テストを先に書く。
+テストがあると嬉しい、開発者間のコミュニケーションツールになる。
+意識のすり合わせとして、日本語で書き、テストとドキュメントを合わせてコミュニケーションツールにしてしまう。
+
+
