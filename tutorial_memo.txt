@@ -1,0 +1,13 @@
+# 1. rubyのインストール
+#     rbenv (or rvm)
+#
+# 2. railsのインストール
+#     gem install rails --version 5.0.0.1
+#     rails _5.0.0.1_ new hello_app
+#
+# 3. 上記のフォルダの中で、同じバージョンでインストールを行う。 
+#     rails server -b $IP -p $PORT
+# 
+# 4. 環境はherokuで動かす。
+# 5. リポジトリはgit
+#
