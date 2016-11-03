@@ -11,3 +11,10 @@
 # 4. 環境はherokuで動かす。
 # 5. リポジトリはgit
 #
+
+コントローラでは、複数形で名前をつける場合は、キャメル(javaのクラス命名規則）のようにつける。
+モデルでは、必ず小文字で単数系で名前をつける。
+
+最初に動作するのはルーティングの部分
+
+USER-no-MacBook-Pro:rails_test_heroku ryo$ rails generate controller StaticPages home help
