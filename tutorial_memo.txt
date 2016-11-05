@@ -41,3 +41,19 @@ rails generate integration_test site_layout
 rails generate controller Users new
 
 
+# railsのプロダクションでデータを消ししまうと、本当にいいのかということで、ガードを入れる。。rails
+schema_migration
+
+
+
+
+rails generate controller Users new
+
+#データベースを元の状態に戻す
+rails db:rollback
+
+rails db:migrate
+#べき統制があるので、何回実行しても大丈夫(db:migrate)
+
+#test/fixtures 
+テスト用のデータが履いている
