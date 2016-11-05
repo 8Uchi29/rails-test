@@ -25,6 +25,19 @@ Rails Tutorialでは、テストを先に書く。
 テストがあると嬉しい、開発者間のコミュニケーションツールになる。
 意識のすり合わせとして、日本語で書き、テストとドキュメントを合わせてコミュニケーションツールにしてしまう。
 
+
+#それぞれの変数の違い
+about_path = "/about"
+about_url  = "http://...../about"
+
+
 #4章
 ヘルパー関数を使ったタイトルの改善
+
+結合テストの生成
+rails generate integration_test site_layout
+
+ユーザというコントローラを追加
+rails generate controller Users new
+
 
