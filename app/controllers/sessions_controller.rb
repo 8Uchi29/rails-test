@@ -7,6 +7,7 @@ class SessionsController < ApplicationController
     if not user.nil? and user.authenticate(params[:session][:password])
       # => user
       log_in user
+      params[:session][:remember_me] == '1' ? remember(user) : forget(user)
       redirect_to user
     else
       # => false
